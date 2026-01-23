@@ -1,0 +1,44 @@
+/**
+ * Tui jodi amake khawas
+ * taile ami asbo
+ * 
+ * ----------
+ * if you buy food for me
+ * i wil come
+ * 
+ * -----------------
+ * if briyani price less than 300 taka
+ * i will buy
+ * 
+ * ----------structure
+ * if (condition){
+ * 
+ *   }
+ */
+
+// if(13 < 10){
+//     console.log('i have a smaller value');
+// }
+
+// var briyaniPrice = 250;
+// if(briyaniPrice < 300){
+//     console.log('mama give me some briyani');
+// }
+
+
+/**
+ * if(condition){
+ *  execute code if condition above is is true
+ * }
+ * else{
+ *  execute code if the condition
+ * }
+ */
+
+var weight = 40;
+if(weight < 20){
+    console.log('I will carry it by myself');
+}
+else{
+    console.log('I will rent a rickshaw')
+}
