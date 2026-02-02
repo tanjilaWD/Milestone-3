@@ -15,3 +15,5 @@ console.log(x , y);
 
 [x, y] = [y, x];
 console.log(x,y);
+//
+console.log(Math.pow(2,3))
