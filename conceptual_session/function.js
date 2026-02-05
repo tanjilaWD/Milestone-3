@@ -76,3 +76,17 @@ function countObjectProperty(obj){
 }
 let person = {name: 'Tanjila', age: 21, location: 'Khulna'};
 countObjectProperty(person);
+
+
+const heights2 = [167, 190, 120, 165, 137];
+
+let lowest = heights2[0]; // assume first one is smallest
+
+for (let i = 1; i < heights2.length; i++) {
+    if (heights2[i] < lowest) {
+        lowest = heights2[i];
+    }
+}
+
+console.log(lowest);
+
